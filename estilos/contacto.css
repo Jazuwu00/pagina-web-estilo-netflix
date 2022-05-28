@@ -1,0 +1,98 @@
+:root {
+    --rojo: #e50914;
+    --fondo: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-image: url("https://images.alphacoders.com/736/736461.png") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    height: 90vh;
+}
+
+h2 {
+    margin-top: -12px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+
+.form-register {
+    text-align: center;
+    width: 600px;
+    background: #000000bb;
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: rgb(216, 216, 216);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #050505;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background-color: rgb(139, 7, 7);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.form-register .botons:hover {
+    background-color: red;
+}
+textarea{
+    margin-top: 20px;
+    background-color: #20202094;
+    color:rgb(109, 107, 107);
+}
+select{
+    background-color:  rgb(24, 24, 24);
+    color: white;
+  text-align: center;
+}
